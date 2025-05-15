@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内部リンクチェッカーの検証</title>
+</head>
+<body>
+    <h1>リンク集</h1>
+    <ul>
+        <li><a href="/test">最初のリンクは多分とれない</a></li>
+        <li><a href="https://www.google.com">【外部リンクなので取れない】Google</a></li>
+        <li><a href="https://www.wikipedia.org">【外部リンクなので取れない】Wikipedia</a></li>
+        <li><a href="https://www.github.com">【外部リンクなので取れない】GitHub</a></li>
+        <li><a href="/">【取れるはず001】：トップ</a></li>
+        <li><a href="/test">【取れるはず002】：test</a></li>
+        <li><a href="/hoge">【取れるはず003】：hoge</a></li>
+        <li style="display: none;"><a href="/">【取れるはず004】：トップ display:none</a></li>
+    </ul>
+</body>
+</html>
